@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -12,7 +12,7 @@ h1 {
 
 .block {
     border: 1px solid black;
-    margin: 10px;
+    margin: 0 5px 10px 5px;
     background-color: slategray;
     position: relative;
     border-radius: 8px;
@@ -24,12 +24,23 @@ h1 {
     text-align: center;
     display: inline-block;
     padding: 5px;
-    background-color: coral;
     font-size: 1.25rem;
     font-weight: bold;
     position: absolute;
     right: 0;
     border-radius: 8px;
+}
+
+#chicken {
+    background-color: rgb(212, 212, 2);
+}
+
+#beef {
+    background-color: rgb(243, 36, 36);
+}
+
+#sushi {
+    background-color: rgb(10, 167, 10);
 }
 
 .content {
